@@ -41,7 +41,7 @@ Completed
 File Location: 
 ```
 
-**TO ignore woarnings during runtime, use -W option
+**To ignore woarnings during runtime, use -W option**
 
 ```python
 python get_vs&pool_info.py -W ignore --host **HOSTNAME** --token **TOKEN** 
