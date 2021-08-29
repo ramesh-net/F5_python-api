@@ -48,7 +48,7 @@ def main():
                 line = [vs['name'],vs['destination'][8:],vs['pool'][8:],member['address'],member['state']]
                 vip_details.append(line)
                 
-        #if pool is not attched to VS, exception will be raised
+        #if pool is not attached to VS, exception will be raised
         except KeyError:
             try:
                 line = [vs['name'],vs['destination'][8:],'','','']
