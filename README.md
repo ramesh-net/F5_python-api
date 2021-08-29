@@ -39,7 +39,12 @@ python get_vs&pool_info.py --host **HOSTNAME** --token **TOKEN**
 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:03<00:00,  1.28s/it]
 Completed
 File Location: 
-
 ```
 
+**TO ignore woarnings during runtime, use -W option
+
+```python
+python get_vs&pool_info.py -W ignore --host **HOSTNAME** --token **TOKEN** 
+
+```
 
