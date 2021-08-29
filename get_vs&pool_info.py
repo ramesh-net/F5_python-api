@@ -30,7 +30,7 @@ def main():
     wb = Workbook()
     vip_details = wb.active
     vip_details.title = "Virtual server & Pool member info."
-    f5_headers=['VirtualServer Name','Virtual IP','Pool Name','IP Address','State']
+    f5_headers=['VirtualServer Name','Virtual IP','Pool Name','Node IP Address','State']
     vip_details.append(f5_headers)
     #List all virtual server in f5 Host
     for vs in tqdm(vs_list):
