@@ -41,10 +41,4 @@ Completed
 File Location: 
 ```
 
-###### To ignore warnings during runtime, use -W option
-
-```python
-python get_vs&pool_info.py -W ignore --host **HOSTNAME** --token **TOKEN** 
-
-```
 
